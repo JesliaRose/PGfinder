@@ -45,9 +45,9 @@ export default function Dashboard() {
           <div className="pgcenter">
           <h2>PG Name</h2>
           <p><img className="theicons" src={email} alt=""></img> emailaddress@gmail.com</p>
-          <p><img className="theicons" src={phone} alt=""></img> Phone no.</p>
+          <p><img className="theicons" src={phone} alt=""></img> 9988776655</p>
           <p><img className="theicons" src={maps} alt=""></img> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias, tenetur blanditiis eligendi, distinctio quos laudantium volupta ipsam dolor tempora.</p>
-          <p><img className="theicons" src={price} alt=""></img> Price</p>
+          <p><img className="theicons" src={price} alt=""></img> Rs.8000</p>
           </div>
           <div className="pgright">
           
@@ -62,9 +62,9 @@ export default function Dashboard() {
           <div className="pgcenter">
           <h2>PG Name</h2>
           <p><img className="theicons" src={email} alt=""></img> emailaddress@gmail.com</p>
-          <p><img className="theicons" src={phone} alt=""></img> Phone no.</p>
+          <p><img className="theicons" src={phone} alt=""></img> 9988776655</p>
           <p><img className="theicons" src={maps} alt=""></img> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias, tenetur blanditiis eligendi, distinctio quos laudantium volupta ipsam dolor tempora.</p>
-          <p><img className="theicons" src={price} alt=""></img> Price</p>
+          <p><img className="theicons" src={price} alt=""></img> Rs.8000</p>
           </div>
           <div className="pgright">
           
@@ -75,6 +75,16 @@ export default function Dashboard() {
       </div>
 
       <div className="rightbar">
+        <h2>Add PG</h2>
+        <form>
+        <label for="name" id="name"><input type="text" id="name" name="name" placeholder="Enter your name" required/></label>
+        <label for="email" id="email"><input type="email" id="email" name="email" placeholder="Enter your email" required/></label>
+        <label for="phno" id="phno"><input type="text" id="phno" name="phno" placeholder="Enter your phone number" required/></label>
+        <label for="namepg" id="namepg"><input type="text" id="namepg" name="namepg" placeholder="Enter the name of the PG" required/></label>
+        <label for="address" id="address"><input type="text" id="address" name="address" placeholder="Enter the address" required/></label>
+        <label for="price" id="price"><input type="text" id="price" name="price" placeholder="Enter the pricing" required/></label>
+        <input type="submit" value="Submit"/>
+        </form>
       </div>
       </div>
     </div>
