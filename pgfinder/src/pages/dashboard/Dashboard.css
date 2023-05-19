@@ -65,7 +65,7 @@
 .leftbar{
     background: #cdf3ff;
     height: 80vh;
-    width: 20vw;
+    width: 15vw;
     float:left;
     display: flex;
     justify-content: center;
@@ -102,11 +102,12 @@ ul img{
 .middlebar{
     background: #cdf3ff;
     height: 80vh;
-    width: 50vw;
+    width: 52vw;
     float: left;
     padding-right: 0;
     display: flex;
     flex-direction: column;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
@@ -115,17 +116,84 @@ ul img{
 }
 
 .pgdata{
-    margin-bottom: 20px;
+    margin:0;
     border: solid 3px #2e5868;
     border-radius: 10px;
-    height: 20vh;
-    width: 45vw; 
+    height: 36vh;
+    width: 48vw; 
+    display: flex;
+    flex-direction: row;
+    color: #2e5868;
+    
+}
+
+.pgleft{
+    float:left;
+}
+.pgleft img{
+    height: 33.5vh;
+    width: 18vw;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-left: 4px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+.pgcenter{
+    width: 24vw;
+    margin-right: 20px;
+}
+.pgcenter h2{
+   margin-top: 4px;
+   font-size: 2em;
+   margin-bottom: 0;
+}
+
+.pgcenter p{
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.theicons{
+    height: 20px;
+    width:20px;
+    display: inline;
+    margin-bottom: -4px;
+}
+
+.pgright{
+    margin-top: 8px;
+    margin-right: 8px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+.pgright img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    object-fit: cover;
+    
+}
+
+.pgright p{
+    padding-right: 0;
+    margin-left: 16px;
+    margin-top: 10px;
+    line-height: 14px;
+    font-weight: 500;
 }
 
 .rightbar{
     background: #cdf3ff;
     height: 80vh;
-    width: 26vw;
+    width: 30vw;
     float: left;
     display: flex;
     justify-content: center;
