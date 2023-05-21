@@ -191,8 +191,8 @@ export default function Dashboard() {
             </p>
           </div>
           <div className="pgright">
-            <img src={user.photo_url} alt="" />
-            <p>{user.displayName}</p>
+            {/* <img src={user.photo_url} alt="" />
+            <p>{user.displayName}</p> */}
           </div>
         </div>
       ))}
