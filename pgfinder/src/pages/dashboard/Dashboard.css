@@ -1,6 +1,3 @@
-*{
-    border-sizing: border-box;
-}
 .dashbaord{
     min-height: 100vh;
     background: #ffffff;
@@ -53,7 +50,7 @@
 
 .content{
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     display: flex;
     justify-content: space-between;
     margin: 14px auto;
@@ -64,7 +61,6 @@
 }
 .leftbar{
     background: #cdf3ff;
-    height: 80vh;
     width: 15vw;
     float:left;
     display: flex;
@@ -101,7 +97,6 @@ ul img{
 }
 .middlebar{
     background: #cdf3ff;
-    height: 80vh;
     width: 52vw;
     float: left;
     padding-right: 0;
@@ -124,6 +119,7 @@ ul img{
     display: flex;
     flex-direction: row;
     color: #2e5868;
+    margin-bottom: 16px;
     
 }
 
@@ -163,6 +159,7 @@ ul img{
     width:20px;
     display: inline;
     margin-bottom: -4px;
+    margin-right: 5px;
 }
 
 .pgright{
@@ -192,7 +189,6 @@ ul img{
 
 .rightbar{
     background: #cdf3ff;
-    height: 80vh;
     width: 30vw;
     float: left;
     display: flex;
@@ -208,6 +204,7 @@ ul img{
 .rightbar h2{
     color: #2e5868;
     margin-top: -4px;
+    margin-bottom: 5px;
     font-size: 26px;
 }
 form{
@@ -218,13 +215,19 @@ form{
 label{
     display: block;
     border: 0;
-    padding-top: 10px;
+    margin-top: 10px;
+    color: #2e5868;
+    font-weight: 500;
 }
 input{
-    width: 100%;
+    width: 80%;
     padding: 20px;
     border-radius: 10px;
     border: 0;
+    margin:0;
+    margin-top: 1px;
+    margin-bottom: -6px;
+    height: 14px;
 }
 
 ::placeholder{
@@ -233,10 +236,20 @@ input{
     font-weight: 500;
 }
 
-input[type="submit"]{
-    margin-top: 20px;
+button[type="button"]{
+    margin-top: 14px;
     margin-left: 20px;
     color: white;
     background-color: #3a6f80;
+    border: 0;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+
+    
+}
+
+input[type="file"]{
+    background-color: #ffffff;
     
 }
